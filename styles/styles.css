@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -10,11 +12,17 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/*(grijs #899CA0 en donkergroen #1C2B32)*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
@@ -22,6 +30,11 @@ Table of Contents:
     2. Typography
 ////////////////////////*/
 
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
 
 
 /*////////////////////////
@@ -32,6 +45,9 @@ Table of Contents:
 
 /*///////////// 3.1 Header /////////////*/
 
+.header-form {
+    /*text-align: center;*/
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
