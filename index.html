@@ -28,20 +28,25 @@
 <main>
     <section class="testimonials">
         <h2>Wat zeggen klanten over ons</h2>
-        <article>
+        <article class="quotes">
+            <img src="./assets/icons/quote-left.png" alt="Icoon aanhalingstekens" class="icon-quote"/>
             <p>
                 Al jaren klant bij Domein.shop. De service is goed en medewerkers zijn zeer klantvriendelijk. Snelle
                 response, zelfs op momenten dat je het niet verwacht.
             </p>
-            <p>
-                Jane Doe, Managing Director</p>
+            <p class="quote-author">
+                Jane Doe, Managing Director
+            </p>
+            <img src="./assets/images/avatar-jane.png" alt="Avatar Jane" class="avatar-jane"/>
         </article>
-        <article>
+        <article class="quotes">
             <p>
                 Ik ben tevreden over Domein.shop. Met name de snelle reactie op mijn vragen en goede service maakt dat
                 ik TransIP aan iedereen aanbeveel.
             </p>
-            <p>
+            <img src="./assets/icons/quote-left.png" alt="Icoon aanhalingstekens" class="icon-quote"/>
+            <img src="./assets/images/avatar-john.png" alt="Avatar John" class="avatar-john"/>
+            <p class="quote-author">
                 John Smith, Frontend Developer
             </p>
         </article>
@@ -50,11 +55,12 @@
         <h2>Wij staan voor je klaar</h2>
         <figure>
             <img src="./assets/images/callcenter.jpg" alt="Twee callcenter medewerkers" class="image-callcenter"/>
-            <figcaption>Je kunt 7 dagen per week bij ons terecht. Ons <a href="team.html" target="_blank">team</a> van vakkundige medewerkers helpt je graag op
+            <figcaption>Je kunt 7 dagen per week bij ons terecht. Ons <a href="team.html" target="_blank">team</a> van
+                vakkundige medewerkers helpt je graag op
                 weg.
             </figcaption>
         </figure>
-        <button>Neem contact op</button>
+        <button type="button" class="contact-button">Neem contact op</button>
     </section>
     <section class="faq">
         <h2>Veelgestelde vragen</h2>
@@ -62,7 +68,7 @@
             <summary>
                 Wat is een goede domeinnaam?
             </summary>
-            <p>
+            <p class="faq-answer">
                 Een goede domeinnaam moet aan enkele eisen voldoen. Ten eerste mag jouw domeinnaam niet in strijd zijn
                 met de openbare orde of de goede zeden. Dit betekent dat je geen ongepaste domeinnaam mag registreren.
                 Verder mag een domeinnaam enkel uit letters, cijfers en eventueel een liggend streepje bestaan. Andere
@@ -73,7 +79,7 @@
             <summary>
                 Welke extensie moet ik kiezen voor mijn domeinnaam?
             </summary>
-            <p>
+            <p class="faq-answer">
                 Je mag helemaal zelf kiezen welke extensie jouw domeinnaam krijgt. Dit kan een .nl-extensie zijn, maar
                 ook een .be-extensie, een .de-extensie of een .com-extensie. Vraag jezelf af op welke markt je je gaat
                 richten, in het heden én in de toekomst. Ben je niet van plan je business de grens over te brengen? Dan
@@ -85,7 +91,7 @@
             <summary>
                 Wat moet ik doen als mijn domeinnaam al geregistreerd is?
             </summary>
-            <p>
+            <p class="faq-answer">
                 Is de domeinnaam die jij wil registreren, al geregistreerd door iemand anders? Dan kun je deze niet
                 opnieuw registreren. Jouw domeinnaam moet namelijk uniek zijn. Als je gewenste domeinnaam al
                 geregistreerd is, heb je twee mogelijkheden. Ten eerste kun je ervoor kiezen een alternatieve domeinnaam
@@ -97,7 +103,7 @@
             <summary>
                 Is het mogelijk meerdere domeinnamen te registreren?
             </summary>
-            <p>
+            <p class="faq-answer">
                 Ja, het is zeker mogelijk meerdere domeinnamen te registreren. Als je zou willen, kun je wel tientallen
                 domeinnamen registreren. Houd er wel rekening mee dat iedere domeinnaam die je registreert, geld kost.
                 Hoe meer domeinnamen je registreert, des te meer geld je moet betalen voor deze domeinen.
@@ -107,7 +113,7 @@
             <summary>
                 Is het mogelijk een domeinnaam te registreren en deze niet te gebruiken?
             </summary>
-            <p>
+            <p class="faq-answer">
                 Ja, je kunt een domeinnaam registreren zonder deze te gebruiken. Dit gebeurt regelmatig. Ten eerste zijn
                 er veel ondernemers die de domeinnaam van hun nieuwe bedrijf alvast registreren, terwijl ze nog lang
                 geen website hebben. Zij willen simpelweg zeker weten dat de domeinnaam nog beschikbaar is als hun
