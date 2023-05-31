@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
@@ -25,7 +25,6 @@ Table of Contents:
 }
 
 
-
 /*////////////////////////
     2. Typography
 ////////////////////////*/
@@ -33,7 +32,36 @@ Table of Contents:
 body {
     font-family: Poppins, sans-serif;
     font-size: 16px;
+    /*text-align: center;*/
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 100px;
+    color: #1C2B32;
+}
+
+::placeholder {
+    color: #1C2B32;
+}
+
+main h2 {
     text-align: center;
+    padding: 30px 0;
+}
+
+figcaption {
+    font-size: 12px;
+    padding: 8px 0;
+}
+
+a {
+    color: #1C2B32;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 
@@ -42,24 +70,102 @@ body {
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
 
-.header-form {
-    /*text-align: center;*/
+.header-wrapper {
+
+    background-image: url("../assets/images/mountains.jpg");
+    background-position: center;
+
+}
+
+h6 {
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.header-group {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 32px 0 400px 0;
+
+
+}
+.domain-check input, button{
+    padding: 10px;
+}
+
+.domain-avail {
+
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    background-color: transparent;
+}
+
+.domain-check-button {
+    color: #FFF;
+    background-color: #1C2B32;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    margin-left: -5px;
 }
 
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+main {
+    width: 1000px;
+    margin: 0 auto;
+    /*text-align: center;*/
+}
 
+.testimonials {
+
+}
 
 /*///////////// 3.3 Support /////////////*/
+
+.support img {
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+
 
 
 
 /*///////////// 3.4 Faq /////////////*/
 
+.faq {
 
+}
 
 /*///////////// 3.5 Footer /////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
